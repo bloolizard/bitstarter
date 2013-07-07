@@ -3,7 +3,7 @@ var express = require('express');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('Hello World 2 by Edwin Villanueva!');
+  response.send('Hello World 2 by Edwin ');
 });
 
 var port = process.env.PORT || 5000;
